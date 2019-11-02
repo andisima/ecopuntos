@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(157, 238, 157);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+body h1{
+    font-size: 50px;
+}
+#initialbutton{
+    /*margin-left: 1200px;*/
+    background-color: white;
+    font-size: 25px;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+#menu{
+    display: none;
+    z-index: 1000;
+    position: fixed;
+    top: 94px;
+    right: 0px;
+    background-color: white;
+    height: 100vh;
+}
+
+#menu .item{
+    padding: 8px 20px 8px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+#map{
+    position: fixed;
+    top: 70px;
+
+}
